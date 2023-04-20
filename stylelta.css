@@ -1,0 +1,128 @@
+/* Importing fonts from Google */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+/*importting finished */
+
+/*body*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*body finished*/
+
+
+/*logo*/
+
+.logo{
+    width: 265px;
+    height: 65px;
+}
+
+/*logo finished*/
+
+/*header started*/
+
+/*   navbar   */
+
+@media only screen and (min-width: 992px){
+    .headertop{
+        margin-bottom: 0.5em;
+        border-bottom: 2px solid rgb(0, 0, 0);
+    }
+    .navbar .nav-item {
+        padding: 5px;
+    }
+}
+.navbar .navbar-nav .nav-link {
+    color: #666;
+    font-size: 1.1em;
+    
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #808080;
+}
+
+/* navbar finish hear*/
+
+/*header heading*/
+
+
+
+/*section one start*/
+
+.head{ 
+    color: #0d8057; 
+    font-size: 65px; 
+    font-family: 'Patua One', cursive;
+    padding: 10px;
+    margin-top: 75px;
+}
+.para { 
+    
+    font-family: 'Inder', sans-serif; 
+    border-bottom: 2px solid #666;
+    line-height: 32px; 
+    margin-bottom: 15px; 
+    padding-left: 10px;
+    font-size: 20px; 
+    color: #666; 
+}
+.firsthead{
+    margin-top: 100px;
+    border-right: 3px solid #666; 
+    border-left: 3px solid #666;
+    border-bottom: 5px solid #666;
+    border-top: 3px solid #666;
+}
+
+/*section one finished*/
+
+
+/*section two */
+
+.ltafeature{
+    margin-top: 70px;
+    margin-bottom: 100px;
+    border-bottom: 5px solid #666;
+    
+}
+li{
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    list-style: none;
+}
+.list{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+/*section tow finished*/
+
+
+#loader{
+    background: rgb(255, 255, 255) url(images/loading.gif) no-repeat center center;
+    background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+
+
+.ttt{
+    position: fixed;
+    right: 20px;
+    bottom: 0%;
+    width: 70px;
+    height: 40px;
+    
+}
